@@ -1,55 +1,57 @@
-🚀 HireReady – AI-Powered Job Application Assistant
-Make your job applications smarter, faster, and interview-ready
+#### 🚀 HireReady – AI-Powered Job Application Assistant  
+Make your job applications smarter, faster, and interview-ready.
 
-📝 Overview
-Applying for jobs can be time-consuming — tailoring your resume and writing a personalized cover letter for each posting is hard work.
+## 📄 Overview  
+Applying for jobs can be time-consuming — tailoring your resume and writing a personalized cover letter for each posting is hard work.  
 
-HireReady automates the process:
+**HireReady automates the process** to save you time and help you stand out.
 
-Analyzes job descriptions to understand exactly what the employer needs
-Matches your resume to those requirements
-Identifies missing skills and suggests improvements
-Generates a tailored cover letter instantly
-Optimizes your resume for the job role
-✨ Features
-Job Description Analysis – Understand employer requirements
-Resume Matching – Get a match percentage and skill breakdown
-ATS Optimization Tips – Pass Applicant Tracking Systems
-Skill Gap Insights – See missing skills with suggestions
-Cover Letter Generator – Unique AI-written letters
-Updated Resume Creation – AI-optimized resume tailored to the job
-Interactive Visual Dashboards – Skill matches displayed clearly
-🛠 Tech Stack
-Frontend/UI: Streamlit
-AI Model: Google Gemini AI via langchain_google_genai
-AI Orchestration: LangChain
-Visualization: Plotly Express
-Data Processing: Pandas
-Document Handling: PyPDF2, python-docx
-PDF Generation: ReportLab
-Environment Management: Conda, python-dotenv
-🔍 How It Works (Simple Terms)
-User enters API key – Connect the app to Google Gemini AI
-Paste the job description – The AI breaks it down into key skill requirements
-Upload resume – Extracts and processes your resume’s text
-AI compares both – Finds matches, highlights gaps, and produces a score
-Suggestions provided – Offers ATS optimization and recommended changes
-Document generation – Creates a custom resume and cover letter
-📂 Project Structure
-┣ 📜 app.py # Main Streamlit app UI ┣ 📜 resume_optimizer.py # Reads resumes, analyzes, generates updated resume ┣ 📜 job_analyzer.py # Analyzes job descriptions and matches with resume ┣ 📜 coverletter.py # Generates tailored cover letters & email-ready text ┣ 📜 requirements.txt # Python dependencies ┣ 📜 .env # API keys and environment variables ┗ 📂 data / tests / etc.
+---
 
-⚙️ Setup & Installation
-1️⃣ Create Python Environment
-conda create -p env python==3.10 -y
-conda activate env/
+## ✨ Features  
+- **Job Description Analysis** – Understand exactly what employers are looking for.  
+- **Resume Matching** – Get a match percentage and detailed skill breakdown.  
+- **ATS Optimization Tips** – Improve your chances of passing Applicant Tracking Systems.  
+- **Skill Gap Insights** – Identify missing skills and get actionable suggestions.  
+- **Cover Letter Generator** – Unique, AI-written cover letters.  
+- **Updated Resume Creation** – AI-tailored resumes based on job requirements.  
+- **Interactive Dashboards** – Visualize your skill matches.  
 
-### Install dependencies
-pip install -r requirements.txt
+---
 
-##Create project modules
+## 🛠 Tech Stack  
+- **Frontend/UI**: Streamlit  
+- **AI Model**: Google Gemini AI (via `langchain_google_genai`)  
+- **AI Orchestration**: LangChain  
+- **Visualization**: Plotly Express  
+- **Data Processing**: Pandas  
+- **Document Handling**: PyPDF2, python-docx  
+- **PDF Generation**: ReportLab  
+- **Environment Management**: Conda, python-dotenv  
 
-##Set up environment variables
-Create .env file:
+---
 
-#Run the application
-streamlit run app.py
+## 🔍 How It Works  
+1. **Enter API Key** – Connect the app to Google Gemini AI.  
+2. **Paste Job Description** – The AI analyzes and extracts key skill requirements.  
+3. **Upload Resume** – The app compares your resume to the job description.  
+4. **Get Feedback** – See matches, missing skills, and ATS optimization tips.  
+5. **Generate Documents** – Create an updated resume and cover letter instantly.  
+
+---
+## ⚙️ Setup & Installation  
+
+1- Create Python Environment  
+   conda create -p env python==3.10 -y
+   conda activate env/
+
+2-Install dependencies
+   pip install -r requirements.txt
+
+3-Create project modules
+
+4-Set up environment variables
+ Create .env file:
+
+5-Run the application
+ streamlit run app.py 
