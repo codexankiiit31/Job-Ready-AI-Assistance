@@ -1,6 +1,9 @@
 #### 🚀 HireReady – AI-Powered Job Application Assistant  
 Make your job applications smarter, faster, and interview-ready.
 
+## 🚀 Live Demo
+You can try the live app here: [Open Streamlit App](https://your-streamlit-link.streamlit.app)
+
 ## 📄 Overview  
 Applying for jobs can be time-consuming — tailoring your resume and writing a personalized cover letter for each posting is hard work.  
 
